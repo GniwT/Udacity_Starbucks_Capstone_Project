@@ -23,16 +23,24 @@ Which model can explain the custeromers' behaviour better?
 The data is contained in three files:
 
 portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
+
 profile.json - demographic data for each customer
+
 transcript.json - records for transactions, offers received, offers viewed, and offers completed
+
 Here is the schema and explanation of each variable in the files:
 
 **portfolio.json**
 id (string) - offer id
+
 offer_type (string) - type of offer ie BOGO, discount, informational
+
 difficulty (int) - minimum required spend to complete an offer
+
 reward (int) - reward given for completing an offer
+
 duration (int) - time for offer to be open, in days
+
 channels (list of strings)
 
 **profile.json**
@@ -48,12 +56,19 @@ person (str) - customer id
 time (int) - time in hours since start of test. The data begins at time t=0
 value - (dict of strings) - either an offer id or transaction amount depending on the record
 
-### Materials
+## Materials
 Starbucks_Data_ELT_and_EDA.ipynb: Notebook containing the ETL and EDA steps
+
 Starbucks_Models.ipynb: Notebook containing the modeling codes
+
 build_main_df_py.py: Notebook containing the functions of combining the dataframes
+
 clean_portfolio_py.py: Notebook containing the fuctions of cleaning the portfolio dataset
+
 clean_profile_py.py: Notebook containing the fuctions of cleaning the profile dataset
+
 clean_transcript_py.py:Notebook containing the fuctions of cleaning the transcript dataset
+
 main_df.csv: csv file conatining the cleaned transcript data
-Data : Folder containing the original datasets
+
+Data: folder containing the original datasets
