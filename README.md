@@ -24,6 +24,7 @@ Which model can explain the custeromers' behaviour better?
 ## Data sets
 The data is contained in three files:
 
+
 portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
 
 profile.json - demographic data for each customer
@@ -70,6 +71,7 @@ person (str) - customer id
 time (int) - time in hours since start of test. The data begins at time t=0
 
 value - (dict of strings) - either an offer id or transaction amount depending on the record
+
 
 ## Materials
 Starbucks_Data_ELT_and_EDA.ipynb: Notebook containing the ETL and EDA steps
