@@ -1,5 +1,5 @@
 # Starbucks Capstone Project
-Udacity Machine Learning Nanodegree Program
+## Udacity Machine Learning Nanodegree Program
 
 1. Description
 2. Installation
@@ -16,7 +16,9 @@ This repository is built on Google Colab. You may need to change few minor codes
 We are interested to answer the following two questions:
 
 Which offer should be sent to a particular customer to let the customer buy more?
+
 Which demographic groups respond best to which offer type?
+
 Which model can explain the custeromers' behaviour better?
 
 ## Data sets
@@ -29,6 +31,7 @@ profile.json - demographic data for each customer
 transcript.json - records for transactions, offers received, offers viewed, and offers completed
 
 Here is the schema and explanation of each variable in the files:
+
 
 **portfolio.json**
 id (string) - offer id
@@ -43,12 +46,14 @@ duration (int) - time for offer to be open, in days
 
 channels (list of strings)
 
+
 **profile.json**
 age (int) - age of the customer
 became_member_on (int) - date when customer created an app account
 gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)
 id (str) - customer id
 income (float) - customer's income
+
 
 **transcript.json**
 event (str) - record description (ie transaction, offer received, offer viewed, etc.)
