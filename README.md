@@ -7,7 +7,7 @@
 4. Data Sets
 
 ## Description
-This Capstone Project is a requirement under Udacity DSND Program. We get the dataset from the program that creates the data simulates how people make purchasing decisions and how those decisions are influenced by promotional offers. I am trying to "Measure Marketing Campaign Effectiveness" using a data from the Starbucks Reward mobile App data for the customers' behavior on Starbucks electronic advertisement. Customers using Starbucks mobile app receive random offers from Starbucks, the offer might range from merely an informational offer advertising about a drink, to an discount offer that a customer can avail on their spending's at Starbucks, or a BOGO (Buy One Get One) offer. All these offers are time bound with a designated expiry. The customers are rewarded based on their cumulative spend activity during the period in which offer was active. The offers are sent to customers in no particular order, some customers might not receive any offer, while not all user receive the same offer.
+This Capstone Project is a requirement under the Udacity DSND Program. We get the dataset from the program that creates the data and simulates how people make purchasing decisions and how those decisions are influenced by promotional offers. I am trying to "Measure Marketing Campaign Effectiveness" using data from the Starbucks Reward mobile App data for the customers' behavior on Starbucks electronic advertisement. Customers using Starbucks mobile app receive random offers from Starbucks, the offer might range from merely an informational offer advertising about a drink, to a discount offer that a customer can avail of their spending at Starbucks, or a BOGO (Buy One Get One) offer. All these offers are time bound with a designated expiry. The customers are rewarded based on their cumulative spend activity during the period in which the offer was active. The offers are sent to customers in no particular order, some customers might not receive any offer, while not all users receive the same offer.
 
 ## Installion
 This repository is built on Google Colab. You may need to change few minor codes if running on other platform. There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3.*.
@@ -19,7 +19,7 @@ Which offer should be sent to a particular customer to let the customer buy more
 
 Which demographic groups respond best to which offer type?
 
-Which model can explain the custeromers' behaviour better?
+Which model can explain the customers' behaviour better?
 
 ## Data sets
 The data is contained in three files:
